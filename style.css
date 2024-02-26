@@ -1,0 +1,86 @@
+.image img{
+    height: 40px;
+    width: 80px;
+    filter: drop-shadow(2px 2px 2px white);
+    margin-left: 10%;
+}
+
+
+*{
+    margin: 0px;
+    padding:0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.navigtion{
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+}
+.navigtion a{
+    text-decoration: none;
+    color: white;
+}
+body{
+    background-color: black;
+}
+.search i{
+    color: white;
+}
+.text{
+    color: white;
+    width: 50%;
+}
+.color{
+    color: #f74f10;
+    margin-top: 1%;
+}
+.text p{
+    color: #635e5c;
+    margin-top: 1%;
+}
+.text h4{
+    margin-top: 1%;
+}
+.button{
+    margin-top: 3%;
+    display: flex;
+    width: 70%;
+    height: 10%;
+    justify-content: space-around;
+    align-items: center;
+}
+.wrap{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10%;
+}
+.key button{
+    background-color: #f74f10;
+    color: white;
+    width: 160%;
+    padding:10px;
+    border-radius: 10px;
+    border-bottom:#f74f10 ;
+}
+.img img{
+    filter: drop-shadow(-10px -10px 200px #f74f10);
+}
+.key button:hover{
+    box-shadow: 0px 0px 30px #f74f10;
+}
+.price h3:hover{
+    text-shadow: 0px 0px 10px white;
+}
+a:hover{
+    color: #f74f10;
+    transition-duration: 1s;
+}
+
