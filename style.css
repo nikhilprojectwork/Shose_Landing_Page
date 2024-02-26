@@ -77,7 +77,7 @@ body{
     box-shadow: 0px 0px 30px #f74f10;
 }
 .price h3:hover{
-    text-shadow: 0px 0px 10px white;
+    text-shadow: 0px 0px 10px rgb(3, 158, 255);
 }
 a:hover{
     color: #f74f10;
