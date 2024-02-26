@@ -1,4 +1,4 @@
-let brn = document.getElementsByClassName("key");
-brn.addEventListner("click" , ()=>{
+let btn = document.getElementsByClassName("key");
+btn.addEventListner("click" , ()=>{
     console.log("Button was clicked")
 })
